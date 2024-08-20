@@ -1,0 +1,157 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: #4a4adf;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header .logo {
+    font-size: 24px;
+}
+
+.header .profile-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 150px;
+    text-align: left;
+    z-index: 1000;
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown a:last-child {
+    border-bottom: none;
+}
+
+.dropdown a:hover {
+    background-color: #f5f5f5;
+}
+
+.balance-section {
+    padding: 20px;
+}
+
+.balance-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.balance-info h2 {
+    margin: 0;
+    font-size: 32px;
+    color: #4a4adf;
+}
+
+.balance-info p {
+    margin: 5px 0 0 0;
+    color: #888;
+}
+
+.add-money-btn {
+    background-color: #4a4adf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-money-btn:hover {
+    background-color: #3d3dbb;
+}
+
+.services-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80px;
+    height: 100px;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.service-card p {
+    margin-top: 10px;
+    color: #4a4adf;
+}
+
+.service-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #4a4adf;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+/* Example icons (You can use actual icons or images) */
+.recharge-icon::before {
+    content: "🔄";
+}
+
+.pay-icon::before {
+    content: "💸";
+}
+
+.bill-icon::before {
+    content: "🧾";
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+  }
+  
+  th,
+  td {
+    padding: 5px;
+    border: 1px solid black;
+  }
+  
