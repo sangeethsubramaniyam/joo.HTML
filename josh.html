@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhonePe UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">PhonePe</div>
+        <div class="profile-icon" onclick="toggleDropdown()">
+            <div class="dropdown" id="dropdownMenu">
+                <a href="#">My Profile</a>
+                <a href="#">Settings</a>
+                <a href="#">Logout</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="balance-section">
+        <div class="balance-card">
+            <div class="balance-info">
+                <h2>₹12,345</h2>
+                <p>Wallet Balance</p>
+            </div>
+            <button class="add-money-btn" onclick="addMoney()">Add Money</button>
+        </div>
+    </section>
+
+    <section class="services-section">
+        <div class="service-card" onclick="showAlert('Recharge')">
+            <div class="service-icon recharge-icon"></div>
+            <p>Recharge</p>
+        </div>
+        <div class="service-card" onclick="showAlert('Pay')">
+            <div class="service-icon pay-icon"></div>
+            <p>Pay</p>
+        </div>
+        <div class="service-card" onclick="showAlert('Bill')">
+            <div class="service-icon bill-icon"></div>
+            <p>Bill</p>
+        </div>
+    </section>
+    morning.</p>
+</details>
+</aside>
+<br>
+<table>
+<tr>
+<th>Time</th>
+<th>Activity</th>
+</tr>
+<tr>
+<td><time datetime="08:00">8am</time>-<time
+datetime="11:00">11am</time></td>
+<td>Write Code</td>
+</tr>
+<tr>
+<td><time
+datetime="11:00">11am</time>-<time
+datetime="12:00">12pm</time></td>
+<td>Lunch break</td>
+</tr>
+<tr>
+<td rowspan="2"> <time
+datetime="12:00">12pm</time>
+    <td>All other time</td>
+    <td>Free time</td>
+    </tr>
+  </table>
+  
+    <script src="script.js"></script>
+</body>
+</html>
